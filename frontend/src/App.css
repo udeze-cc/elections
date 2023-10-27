@@ -1,0 +1,242 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.party-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.party-card {
+  flex: 1;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.chart-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.chart-box {
+  flex: 1;
+  margin: 10px;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.result-component {
+  display: 'flex'; 
+  align-items: 'flex-start'; 
+  flex-direction: 'row';
+  margin: 2 !important;
+}
+
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.icon-button {
+    position: relative;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+}
+
+.search-icon {
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s ease;
+    margin-right: 20px;
+    margin-top: 1;
+
+}
+
+.account-button {
+  font-size: 18px;
+    color: white;
+    transition: color 0.3s ease;
+    margin-right: 20px;
+    margin-top: 1;
+    text-decoration: none;
+
+}
+.search-icon:hover { 
+  color: gray 
+}
+
+.dropdown {
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.national-grid-container {
+  flex-direction: column;
+  align-items: justify;
+}
+
+.national-party-box {
+  flex-direction: column;
+  align-items: justify;
+  padding: 20px;
+
+}
+
+.national-party-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: auto;
+}
+
+.national-party-card {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+}
+
+.national-party-typography {
+    position: top;
+    top: 1px;
+    right: 10px;
+    font-size: 1.0em;
+    font: weight bolder;
+}
+.typography-margin {
+    margin-top: 10px;
+}
+
+.view-result-button {
+  background-color: transparent;
+  border: none;
+  color: green;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid green;
+}
+
+.view-result-button:hover {
+  background-color: #9A9A9A;
+  color: white;
+  border: none;
+}
+
+.unit-header {
+  text-align: center;
+  font-weight: bold !important;
+}
+
+ .resultform-header {
+  margin: 1.0em;
+  display: flex;
+  flex-direction: column; 
+  align-content: center;
+ }
+.component-typography {
+  margin: 2.0em; 
+  font-weight: bold !important;
+}
+
+.textfield-margin {
+  margin: 2;
+}
+
+.result-header-typo {
+  font-weight: bold !important;
+}
+
+.accordion-margin {
+   margin-bottom: 2;
+}
+
+.component-margin {
+  margin: 2;
+  align-content: center;
+}
+
+.result-input {
+  padding: 1.0em;
+  font-weight: bold !important;
+}
+
+.election-parties{
+  padding-left: 2.0em;
+  font-weight: bold !important;
+}
+
+.parties-cell {
+  font-weight: bold !important;
+}
+
+.preview-cell {
+  font-size: larger;
+  font-weight: bold !important;
+}
+
+.party-input {
+  padding: 3.0em;
+}
+
+.qrCode {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.container-relative {
+  position: relative;
+}
+
+.qrcode-top-right {
+  position: absolute;
+  top: 10px; /* adjust as needed */
+  right: 100px;
+  padding-right: 2.0em;
+  z-index: 1;
+}

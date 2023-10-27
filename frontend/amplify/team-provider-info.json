@@ -1,0 +1,49 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-elive-dev-04103-authRole",
+      "UnauthRoleArn": "arn:aws:iam::529064899164:role/amplify-elive-dev-04103-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::529064899164:role/amplify-elive-dev-04103-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-elive-dev-04103-deployment",
+      "UnauthRoleName": "amplify-elive-dev-04103-unauthRole",
+      "StackName": "amplify-elive-dev-04103",
+      "StackId": "arn:aws:cloudformation:eu-west-2:529064899164:stack/amplify-elive-dev-04103/558f9070-5421-11ee-8a28-0a5cd06bed48",
+      "AmplifyAppId": "d39h2gkax6hqox",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-elive-dev-04103-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "elivefe6a2e85": {}
+      },
+      "function": {
+        "elivefe6a2e85CustomMessage": {
+          "REDIRECTURL": "/resultForm",
+          "EMAILSUBJECT": "",
+          "EMAILMESSAGE": "",
+          "deploymentBucketName": "amplify-elive-dev-04103-deployment",
+          "s3Key": "amplify-builds/elivefe6a2e85CustomMessage-34764972374f52623071-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d39h2gkax6hqox",
+          "type": "manual"
+        }
+      }
+    }
+  },
+  "working": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-elive-working-05751-authRole",
+      "UnauthRoleArn": "arn:aws:iam::651573038802:role/amplify-elive-working-05751-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::651573038802:role/amplify-elive-working-05751-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-elive-working-05751-deployment",
+      "UnauthRoleName": "amplify-elive-working-05751-unauthRole",
+      "StackName": "amplify-elive-working-05751",
+      "StackId": "arn:aws:cloudformation:eu-west-2:651573038802:stack/amplify-elive-working-05751/d7054b20-5e5a-11ee-aeca-02980543d0ea",
+      "AmplifyAppId": "duxpw7mnuzntb"
+    }
+  }
+}
